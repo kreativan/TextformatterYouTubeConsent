@@ -5,7 +5,7 @@ ProcessWire Textformatter module used with
 
 ### How to use
 
-1. Istall <a href="https://processwire.com/modules/textformatter-video-embed/">TextformatterVideoEmbed</a> module.
+1. Install <a href="https://processwire.com/modules/textformatter-video-embed/">TextformatterVideoEmbed</a> module.
 2. Install TextformatterYouTubeConsent module in /site/modules/TextformatterYouTubeConsent/
 3. In any Textarea field using CKEditor or TinyMCE select TextformatterYouTubeConsent for the Text formaters option.
 
