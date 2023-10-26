@@ -9,6 +9,8 @@
 namespace ProcessWire;
 
 class TextformatterYouTubeConsent extends Textformatter implements ConfigurableModule {
+	
+	public $formater;
 
   public static function getModuleInfo() {
     return array(
@@ -20,8 +22,6 @@ class TextformatterYouTubeConsent extends Textformatter implements ConfigurableM
       'requires' => ['TextformatterVideoEmbed'],
     );
   }
-
-  public $formater;
 
   public function __construct() {
     parent::__construct();
