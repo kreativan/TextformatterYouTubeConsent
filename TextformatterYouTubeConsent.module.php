@@ -13,7 +13,7 @@ class TextformatterYouTubeConsent extends Textformatter implements ConfigurableM
   public static function getModuleInfo() {
     return array(
       'title' => 'YouTube Consent with TextformatterVideoEmbed',
-      'version' => 202,
+      'version' => 100,
       'summary' => 'Display youtube consent message before embedding video with TextformatterVideoEmbed',
       'author' => 'Ivan Milincic',
       'href' => 'https://github.com/kreativan/TextformatterYouTubeConsent',
