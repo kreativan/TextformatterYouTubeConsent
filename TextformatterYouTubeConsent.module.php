@@ -9,8 +9,8 @@
 namespace ProcessWire;
 
 class TextformatterYouTubeConsent extends Textformatter implements ConfigurableModule {
-	
-	public $formater;
+
+  public $formater;
 
   public static function getModuleInfo() {
     return array(
@@ -121,11 +121,13 @@ class TextformatterYouTubeConsent extends Textformatter implements ConfigurableM
    * @return string
    */
   public function cookie_html($video_url) {
-		$link_text = __('Accept');
+    $headline = __('YouTube Video');
+    $link_text = __('Accept');
     $text = __('Before playing the video, we need your consent for data processing. By clicking Accept, you agree to YouTube Terms of Service and acknowledge their data collection practices.');
     $html = "<div class='youtube-embed-consent' style='position: relative;'>";
     $html .= "<img src='{$this->get_youtube_video_poster($video_url)}' />";
     $html .= "<div class='youtube-embed-consent-message' style='position: absolute; top:20px;left:20px;right:20px;bottom:20px; box-sizing: border-box; padding: 20px; background: rgba(255, 255, 255, 0.8);'>";
+    $html .= "<h3>$headline</h3>";
     $html .= "<p>$text</p>";
     $html .= "<a href='./?youtube_consent=1'>{$link_text}</a>";
     $html .= "</div>";
