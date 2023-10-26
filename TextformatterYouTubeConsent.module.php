@@ -16,7 +16,7 @@ class TextformatterYouTubeConsent extends Textformatter implements ConfigurableM
       'version' => 202,
       'summary' => 'Display youtube consent message before embedding video with TextformatterVideoEmbed',
       'author' => 'Ivan Milincic',
-      'href' => 'https://processwire.com/modules/textformatter-video-embed/',
+      'href' => 'https://github.com/kreativan/TextformatterYouTubeConsent',
       'requires' => ['TextformatterVideoEmbed'],
     );
   }
