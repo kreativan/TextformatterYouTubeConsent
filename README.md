@@ -1,7 +1,7 @@
 # TextformatterYouTubeConsent
 
 ProcessWire Textformatter module used with 
-<a href="https://processwire.com/modules/textformatter-video-embed/">TextformatterVideoEmbed</a> module to display privacy mesasge before embeding youtube videos.
+<a href="https://processwire.com/modules/textformatter-video-embed/">TextformatterVideoEmbed</a> module to display privacy mesasge before embedding youtube videos.
 
 ### How to use
 
