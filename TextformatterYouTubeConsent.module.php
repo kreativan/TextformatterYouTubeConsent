@@ -101,7 +101,7 @@ class TextformatterYouTubeConsent extends Textformatter implements ConfigurableM
    * @param string $url
    * @return string
    */
-  function get_youtube_video_poster($url) {
+  public function get_youtube_video_poster($url) {
     $video_id = '';
     $regex = '#(?:https?://)?(?:www\.)?(?:youtu\.be/|youtube\.com/(?:watch(?:\?v=|/)|embed/|v/))([\w-]{10,12})#x';
     if (preg_match($regex, $url, $matches)) {
